@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title> SaltandoAndo </title>
+  <!-- Cristian Jaimes -->
+  <link rel="stylesheet" href="css/estilos_m.css">
+  <link rel="stylesheet" type="text/css" href="css/estilo_r.css">
+</head>
+<body>
+<!-- inicio menu -->
+<div class="container">
+  <nav class="title">
+    <h1><strong>SaltandoAndo</strong></h1>
+    <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="Iniciar sesion.html">Iniciar Sesion</a></li>
+        <li><a href="Registro.html">Registrate</a></li>
+        <li><a href="">ES/EN</a></li>
+    </ul>
+  </nav>
+  <p><br><br><br><br></p>
+    
+  
+  <!-- Inicio del formulario -->  
+  <div class="contact_form">
+
+    <div class="formulario">      
+      <h1>Registro</h1>
+      <form action="submeter-formulario.php" method="post">       
+
+            
+       <p>
+                  <label for="email" class="colocar_email">Correo Electronico
+                    <span class="obligatorio"></span>
+                  </label>
+                    <input type="email" name="introducir_email" id="email" required placeholder="">
+        </p>
+                
+        <p>
+                  <label for="Contraseña" class="colocar_nombre">Contraseña
+                    <span class="obligatorio"></span>
+                  </label>
+                  <input type="password" name="introducir_Passwod" id="Passwod" required placeholder="">
+        </p>
+                
+        <p>
+                  <label for="Confirmar Contraseña" class="colocar_nombre">Confirmar Contraseña
+                    <span class="obligatorio"></span>
+                  </label>
+                  <input type="password" name="introducir_Passwod" id="Passwod" required placeholder="">
+        </p>
+                
+        <p>
+                  <label for="nombre" class="colocar_nombre">Nombre
+                    <span class="obligatorio"></span>
+                  </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required placeholder="">
+        </p>
+              
+        <p>
+                  <label for="Cédula" class="txtBox">Cedula
+                    <span class="obligatorio"></span>
+          </label>
+                  <input type="text" name="txtNumDoc" id="txtNumDoc" placeholder="">
+        </p>    
+      
+              
+                
+                <a href="perfil.html">
+                  <button type="submit" name="enviar_formulario" ><p>Registrar</p></button> 
+                 </a>
+            
+          
+      </form>
+       <!-- Fin del formulario -->  
+    </div>  
+  </div>
+</div>
+<p><br><br><br><br></p>
+</body>
+</html>
